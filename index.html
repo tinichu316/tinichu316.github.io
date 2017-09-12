@@ -5,12 +5,55 @@
   <title> William Wang's Website </title>
 <!-- Put CSS Code here ya ding dong -->
 <style>
+/* for everything: */
+*{
+  font-family: "Tahoma", Georgia, sans-serif;
+
+
+}
 /*Main Title*/
 #title1 {
   text-align: center;
   color: #4d88ff;
   font-size: 32px;
-  font-family: sans-serif, Tahoma, Geneva, sans-serif;
+}
+
+body {
+  background-color: #e6eeff;
+}
+
+/* for title links */
+.links {
+  color:#4d88ff;
+  text-align: center;
+  font-size: 32px;
+}
+
+/*links stylizing*/
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+
+.description {
+
+}
+
+/* contains all the text aka margin */
+.mainContainer{
+  text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+  background-color: #ccddff;
+  padding: 50px;
+}
+
+.topic{
+  text-align: justify left;
 
 }
 
@@ -21,23 +64,48 @@
 
 <body>
 <p id ="title1">
-  Welcome to my website!
+  William's Collection of Games
 </p>
-<p>
-<a href = "https://tinichu316.github.io/Trampoline-Sofa/"> Trampoline Jump (2015) </a>
-</p>
+<div class = "mainContainer">
+  <div class = "topic">
+    <p>
+    <a class = "links" href = "https://tinichu316.github.io/Trampoline-Sofa/"> Trampoline Jump (2015) </a>
+    </p>
+    <p class = "description">
+      A 3D first-person platformer game about jumping on trampolines in order to outrun a sandstorm. Built in C# using Unity.
+    </p>
+    <a href = "https://github.com/tinichu316/Trampoline-Sofa"> View on Github </a>
+  </div>
 
-<p>
-<a href = "https://tinichu316.github.io/MyBookFace/"> MyBookFace (2015) </a>
-</p>
+  <div class = "topic">
+    <p>
+    <a class = "links" href = "https://tinichu316.github.io/MyBookFace/"> MyBookFace (2015) </a>
+    </p>
+    <p class = "description">
+      A digital experience about the joy of creating an account on an up and coming social media platform. Built in C# using Unity.
+    </p>
+    <a href = "https://github.com/tinichu316/MyBookFace"> View on Github </a>
+  </div>
 
-<p>
-<a href = "https://github.com/tinichu316/Dark_Room"> Dark Room (2017) </a>
-</p>
+  <div class = "topic">
+    <p>
+    <a class = "links" href = "https://github.com/tinichu316/Dark_Room"> Dark Room (2017) </a>
+    </p>
+    <p class = "description">
+      A Zork-style text adventure game about escaping a labyrinth while remaining sane. Done to gain practice in Python. Built in Python and playable in the terminal.
+    </p>
+  </div>
 
-<p>
-<a href = "https://tinichu316.github.io/GeometryShoot/"> Geometry Shoot (2017) </a>
-</p>
+  <div class = "topic">
+    <p>
+    <a class = "links" href = "https://tinichu316.github.io/GeometryShoot/"> Geometry Shoot (2017) </a>
+    </p>
+    <p class = "description">
+      A top-down twin stick shooter about defeating waves of unique geometric shapes to progressively get stronger. Built in C# using Unity.
+    </p>
+    <a href = "https://github.com/tinichu316/GeometryShoot"> View on Github </a>
+  </div>
+</div>
 
 
 
